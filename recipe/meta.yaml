@@ -1,4 +1,4 @@
-{% set version = '0.2.16' %}
+{% set version = "0.3.0" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -12,7 +12,7 @@ source:
   url:
     - https://cran.r-project.org/src/contrib/ggpmisc_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/ggpmisc/ggpmisc_{{ version }}.tar.gz
-  sha256: 380aef13f4bc54bbff66ff4e83b57c065626927cf9e7e913c190b83fd8fd05c3
+  sha256: 9f2d4cc58e4d7509880201cd05021419130d68107166463bcde7c8b4f0f8b8d6
 
 build:
   number: 0
