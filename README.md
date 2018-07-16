@@ -1,27 +1,29 @@
 About r-ggpmisc
 ===============
 
-Home: https://bitbucket.org/aphalo/ggpmisc
+Home: https://www.r4photobiology.info, https://bitbucket.org/aphalo/ggpmisc
 
 Package license: GPL (>= 2)
 
 Feedstock license: BSD 3-Clause
 
-Summary: Extensions to 'ggplot2' respecting the grammar of graphics paradigm. Provides new statistics to locate and tag peaks and valleys in 2D plots, a statistics to add a label with the equation of a polynomial fitted with lm(), or R^2 or adjusted R^2 or information criteria for any model fitted with function lm(). Additional statistics give access to functions in package 'broom'. Provides a function for flexibly converting time series to data frames suitable for plotting with ggplot(). In addition provides statistics and ggplot geometries useful for diagnosing what data are passed to compute_group() and compute_panel() functions and to geometries.
+Summary: Extensions to 'ggplot2' respecting the grammar of graphics paradigm. Specialization of method ggplot(): accept and convert on the fly  time series data. Geom: "table", adds tables to plots. Statistics: locate  and tag peaks and valleys in 2D plots; count observations in different  quadrants of a plot; select observations based on 2D density; label with the  equation of a polynomial fitted with lm() or other types of models; labels  with P-value, R^2 or adjusted R^2 or information criteria for fitted models;  label with ANOVA table for fitted models; label with summary for fitted  models. Model fit classes for which suitable methods are provided by package 'broom' are supported.
 
 
 
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/r-ggpmisc-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/r-ggpmisc-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/r-ggpmisc-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/r-ggpmisc-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/r-ggpmisc-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/r-ggpmisc-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-ggpmisc-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-ggpmisc-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/r-ggpmisc-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-ggpmisc-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/r-ggpmisc-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/r-ggpmisc-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/r-ggpmisc/badges/version.svg)](https://anaconda.org/conda-forge/r-ggpmisc)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/r-ggpmisc/badges/downloads.svg)](https://anaconda.org/conda-forge/r-ggpmisc)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-r--ggpmisc-green.svg)](https://anaconda.org/conda-forge/r-ggpmisc) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/r-ggpmisc.svg)](https://anaconda.org/conda-forge/r-ggpmisc) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/r-ggpmisc.svg)](https://anaconda.org/conda-forge/r-ggpmisc) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/r-ggpmisc.svg)](https://anaconda.org/conda-forge/r-ggpmisc) |
 
 Installing r-ggpmisc
 ====================
