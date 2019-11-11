@@ -3,11 +3,11 @@ About r-ggpmisc
 
 Home: https://www.r4photobiology.info, https://bitbucket.org/aphalo/ggpmisc
 
-Package license: GPL (>= 2)
+Package license: GPL-2
 
 Feedstock license: BSD 3-Clause
 
-Summary: Extensions to 'ggplot2' respecting the grammar of graphics paradigm. Specialization of method ggplot(): accept and convert on the fly  time series data. Geom: "table", adds tables to plots. Statistics: locate  and tag peaks and valleys in 2D plots; count observations in different  quadrants of a plot; select observations based on 2D density; label with the  equation of a polynomial fitted with lm() or other types of models; labels  with P-value, R^2 or adjusted R^2 or information criteria for fitted models;  label with ANOVA table for fitted models; label with summary for fitted  models. Model fit classes for which suitable methods are provided by package 'broom' are supported.
+Summary: Extensions to 'ggplot2' respecting the grammar of graphics paradigm. Specialization of method ggplot(): accept and convert on the fly time series data. Geom: "table", "plot" and "grob" add insets to plots using native data coordinates, while "table_npc", "plot_npc" and "grob_npc" do the same using "npc" coordinates through new aesthetics "npcx" and "npcy". Statistics: locate and tag peaks and valleys; count observations in different quadrants of a plot; select observations based on 2D density; label with the equation of a polynomial fitted with lm() or other types of models; labels with P-value, R^2 or adjusted R^2 or information criteria for fitted models; label with ANOVA table for fitted models; label with summary for fitted models. Model fit classes for which suitable methods are provided by package 'broom' are supported. Scales and stats to build volcano and quadrant plots based on outcomes, fold changes, p-values and false discovery rates.
 
 
 
@@ -116,11 +116,5 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@bgruening](https://github.com/bgruening/)
-* [@cbrueffer](https://github.com/cbrueffer/)
 * [@conda-forge/r](https://github.com/conda-forge/r/)
-* [@daler](https://github.com/daler/)
-* [@dbast](https://github.com/dbast/)
-* [@jdblischak](https://github.com/jdblischak/)
-* [@johanneskoester](https://github.com/johanneskoester/)
 
