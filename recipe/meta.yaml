@@ -1,4 +1,4 @@
-{% set version = "0.3.1" %}
+{% set version = "0.3.2" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -11,12 +11,12 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ggpmisc_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ggpmisc/ggpmisc_{{ version }}.tar.gz
-  sha256: e23bfd19bd0521b88459f0df3073c2ecf183e48cc3b1956f0266fc7ef06d92cd
+  sha256: 58f3488247f4513768927840026fbe5a2c9eac673316ba92ea0fa64f30ad9b55
 
 build:
   noarch: generic
   merge_build_host: True  # [win]
-  number: 1
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
