@@ -1,4 +1,4 @@
-{% set version = "0.3.4" %}
+{% set version = "0.3.5" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ggpmisc_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ggpmisc/ggpmisc_{{ version }}.tar.gz
-  sha256: b22e77be4ff782508d861444e2b2153df4acde4832929887c037c23bc1f58175
+  sha256: 363e9e4ad52f209b12a7b48528507c48afb70db52ae50e9f2ec8a23dd4684255
 
 build:
   merge_build_host: true  # [win]
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -68,13 +68,10 @@ test:
 about:
   home: https://www.r4photobiology.info, https://bitbucket.org/aphalo/ggpmisc
   license: GPL-2
-  summary: "Extensions to 'ggplot2' respecting the grammar of graphics paradigm. Specialization of method ggplot(): accept and convert on the fly time series data.\
-    \ Geom: \"table\", \"plot\" and \"grob\" add insets to plots using native data coordinates, while \"table_npc\", \"plot_npc\" and \"grob_npc\" do the same using\
-    \ \"npc\" coordinates through new aesthetics \"npcx\" and \"npcy\". Statistics: locate and tag peaks and valleys; count observations in different quadrants of\
-    \ a plot; select observations based on 2D density; label with the equation of a polynomial fitted with lm() or other types of models; labels with P-value, R^2\
-    \ or adjusted R^2 or information criteria for fitted models; label with ANOVA table for fitted models; label with summary for fitted models. Model fit classes\
-    \ for which suitable methods are provided by package 'broom' are supported. Scales and stats to build volcano and quadrant plots based on outcomes, fold changes,\
-    \ p-values and false discovery rates."
+  summary: "Extensions to 'ggplot2' respecting the grammar of graphics paradigm. Specialization of method ggplot(): accept and convert on the fly time series data. Geom: \"table\", \"plot\" and \"grob\" add insets to plots using native data coordinates, while \"table_npc\", \"plot_npc\" and \"grob_npc\" do the same using\
+    \ \"npc\" coordinates through new aesthetics \"npcx\" and \"npcy\". Statistics: locate and tag peaks and valleys; count observations in different quadrants of a plot; select observations based on 2D density; label with the equation of a polynomial fitted with lm() or other types of models; labels with P-value, R^2 or\
+    \ adjusted R^2 or information criteria for fitted models; label with ANOVA table for fitted models; label with summary for fitted models. Model fit classes for which suitable methods are provided by package 'broom' are supported. Scales and stats to build volcano and quadrant plots based on outcomes, fold changes, p-values\
+    \ and false discovery rates."
   license_family: GPL2
   license_file:
     - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2
