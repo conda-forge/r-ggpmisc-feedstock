@@ -1,4 +1,4 @@
-{% set version = "0.3.6" %}
+{% set version = "0.3.7" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ggpmisc_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ggpmisc/ggpmisc_{{ version }}.tar.gz
-  sha256: 0808371dec19e83f70c0ccf6cb2fdbb42536a11f1676f67619eea397130e2816
+  sha256: d6eb76148b1461546254947ec48c400253fa599f81f92a3ecbc33a3213333a88
 
 build:
   merge_build_host: true  # [win]
