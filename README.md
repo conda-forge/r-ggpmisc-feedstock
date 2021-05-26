@@ -3,7 +3,7 @@ About r-ggpmisc
 
 Home: https://www.r4photobiology.info, https://bitbucket.org/aphalo/ggpmisc
 
-Package license: GPL-2
+Package license: GPL-2.0-or-later
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ggpmisc-feedstock/blob/master/LICENSE.txt)
 
@@ -36,6 +36,7 @@ Installing `r-ggpmisc` from the `conda-forge` channel can be achieved by adding 
 
 ```
 conda config --add channels conda-forge
+conda config --set channel_priority strict
 ```
 
 Once the `conda-forge` channel has been enabled, `r-ggpmisc` can be installed with:
