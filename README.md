@@ -3,7 +3,7 @@ About r-ggpmisc
 
 Home: https://www.r4photobiology.info, https://bitbucket.org/aphalo/ggpmisc
 
-Package license: GPL-2
+Package license: GPL-2.0-or-later
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ggpmisc-feedstock/blob/master/LICENSE.txt)
 
