@@ -1,4 +1,4 @@
-{% set version = "0.4.2-1" %}
+{% set version = "0.4.3" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ggpmisc_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ggpmisc/ggpmisc_{{ version }}.tar.gz
-  sha256: 9ea182616353345038d60ad390bbac31f1a28b80b72973c4b3650ddc6f657dca
+  sha256: 33fecbecefedb7e5260662d4cde58ba2d8f484a1e3d90276608818229727c839
 
 build:
   merge_build_host: true  # [win]
@@ -30,9 +30,8 @@ requirements:
     - r-dplyr >=1.0.2
     - r-generics >=0.1.0
     - r-ggplot2 >=3.3.1
-    - r-ggpp >=0.4.0
-    - r-glue >=1.4.2
-    - r-gridextra >=2.3
+    - r-ggpp >=0.4.2
+    - r-lmodel2 >=1.7_3
     - r-lubridate >=1.7.9
     - r-plyr >=1.8.6
     - r-polynom >=1.4_0
@@ -40,19 +39,15 @@ requirements:
     - r-rlang >=0.4.7
     - r-scales >=1.1.1
     - r-splus2r >=1.2_2
-    - r-stringr >=1.4.0
     - r-tibble >=3.0.3
-    - r-xts >=0.12_0
-    - r-zoo >=1.8_8
   run:
     - r-base
     - r-mass >=7.3_51.6
     - r-dplyr >=1.0.2
     - r-generics >=0.1.0
     - r-ggplot2 >=3.3.1
-    - r-ggpp >=0.4.0
-    - r-glue >=1.4.2
-    - r-gridextra >=2.3
+    - r-ggpp >=0.4.2
+    - r-lmodel2 >=1.7_3
     - r-lubridate >=1.7.9
     - r-plyr >=1.8.6
     - r-polynom >=1.4_0
@@ -60,10 +55,7 @@ requirements:
     - r-rlang >=0.4.7
     - r-scales >=1.1.1
     - r-splus2r >=1.2_2
-    - r-stringr >=1.4.0
     - r-tibble >=3.0.3
-    - r-xts >=0.12_0
-    - r-zoo >=1.8_8
 
 test:
   commands:
