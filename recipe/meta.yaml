@@ -1,4 +1,4 @@
-{% set version = "0.4.7" %}
+{% set version = "0.5.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ggpmisc_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ggpmisc/ggpmisc_{{ version }}.tar.gz
-  sha256: fd93e10f23c477cc39e3e776b380afeefc31f89283e09605ad6878b8a86536fc
+  sha256: bcd3793f9f4c9ebdce10764224891acad91fff18d697fc818503c6576175ecc4
 
 build:
   merge_build_host: true  # [win]
@@ -27,35 +27,37 @@ requirements:
   host:
     - r-base
     - r-mass >=7.3_51.6
-    - r-dplyr >=1.0.2
-    - r-generics >=0.1.0
-    - r-ggplot2 >=3.3.1
-    - r-ggpp >=0.4.2
+    - r-confintr >=0.1.2
+    - r-dplyr >=1.0.6
+    - r-generics >=0.1.2
+    - r-ggplot2 >=3.3.5
+    - r-ggpp >=0.4.4
     - r-lmodel2 >=1.7_3
-    - r-lubridate >=1.7.9
+    - r-lubridate >=1.7.10
     - r-plyr >=1.8.6
     - r-polynom >=1.4_0
-    - r-quantreg >=5.85
-    - r-rlang >=0.4.7
-    - r-scales >=1.1.1
-    - r-splus2r >=1.2_2
-    - r-tibble >=3.0.3
+    - r-quantreg >=5.93
+    - r-rlang >=1.0.0
+    - r-scales >=1.2.0
+    - r-splus2r >=1.3_3
+    - r-tibble >=3.1.5
   run:
     - r-base
     - r-mass >=7.3_51.6
-    - r-dplyr >=1.0.2
-    - r-generics >=0.1.0
-    - r-ggplot2 >=3.3.1
-    - r-ggpp >=0.4.2
+    - r-confintr >=0.1.2
+    - r-dplyr >=1.0.6
+    - r-generics >=0.1.2
+    - r-ggplot2 >=3.3.5
+    - r-ggpp >=0.4.4
     - r-lmodel2 >=1.7_3
-    - r-lubridate >=1.7.9
+    - r-lubridate >=1.7.10
     - r-plyr >=1.8.6
     - r-polynom >=1.4_0
-    - r-quantreg >=5.85
-    - r-rlang >=0.4.7
-    - r-scales >=1.1.1
-    - r-splus2r >=1.2_2
-    - r-tibble >=3.0.3
+    - r-quantreg >=5.93
+    - r-rlang >=1.0.0
+    - r-scales >=1.2.0
+    - r-splus2r >=1.3_3
+    - r-tibble >=3.1.5
 
 test:
   commands:
