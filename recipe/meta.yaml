@@ -30,8 +30,8 @@ requirements:
     - r-confintr >=0.1.2
     - r-dplyr >=1.0.6
     - r-generics >=0.1.2
-    - r-ggplot2 >=3.3.5
-    - r-ggpp >=0.4.4
+    - r-ggplot2 >=3.4.0
+    - r-ggpp >=0.4.5
     - r-lmodel2 >=1.7_3
     - r-lubridate >=1.7.10
     - r-plyr >=1.8.6
@@ -47,8 +47,8 @@ requirements:
     - r-confintr >=0.1.2
     - r-dplyr >=1.0.6
     - r-generics >=0.1.2
-    - r-ggplot2 >=3.3.5
-    - r-ggpp >=0.4.4
+    - r-ggplot2 >=3.4.0
+    - r-ggpp >=0.4.5
     - r-lmodel2 >=1.7_3
     - r-lubridate >=1.7.10
     - r-plyr >=1.8.6
