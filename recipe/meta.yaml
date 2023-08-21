@@ -31,9 +31,11 @@ requirements:
     - r-dplyr >=1.0.6
     - r-generics >=0.1.2
     - r-ggplot2 >=3.4.0
-    - r-ggpp >=0.4.5
+    - r-ggpp >=0.5.4
     - r-lmodel2 >=1.7_3
     - r-lubridate >=1.7.10
+    - r-multcomp >=1.4_25
+    - r-multcompview >=0.1_9
     - r-plyr >=1.8.6
     - r-polynom >=1.4_0
     - r-quantreg >=5.93
@@ -48,9 +50,11 @@ requirements:
     - r-dplyr >=1.0.6
     - r-generics >=0.1.2
     - r-ggplot2 >=3.4.0
-    - r-ggpp >=0.4.5
+    - r-ggpp >=0.5.4
     - r-lmodel2 >=1.7_3
     - r-lubridate >=1.7.10
+    - r-multcomp >=1.4_25
+    - r-multcompview >=0.1_9
     - r-plyr >=1.8.6
     - r-polynom >=1.4_0
     - r-quantreg >=5.93
