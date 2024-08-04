@@ -1,6 +1,5 @@
 {% set version = "0.6.0" %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-ggpmisc
@@ -13,8 +12,7 @@ source:
   sha256: b1f62861c0136355f55b08824d72ce3ee36bfdd095a26d807e5035c9d70dbc90
 
 build:
-  merge_build_host: true  # [win]
-  number: 0
+  number: 1
   noarch: generic
   rpaths:
     - lib/R/lib/
