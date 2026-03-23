@@ -1,4 +1,4 @@
-{% set version = "0.6.3" %}
+{% set version = "0.7.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ggpmisc_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ggpmisc/ggpmisc_{{ version }}.tar.gz
-  sha256: 79e00dee94ed6850b816abfcd85578228056b566fd5decb9e1ec91b8346c7c79
+  sha256: bd3515318913fb9630149e378b46a3102ce7f156ce78d35f7b8cc6d9e350ba22
 
 build:
   number: 0
